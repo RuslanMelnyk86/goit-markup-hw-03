@@ -10,6 +10,7 @@
 }
 
 body {
+  margin: 0;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
@@ -148,7 +149,10 @@ body {
 
 /*Hero*/
 .hero {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 696px;
 }
 .hero-title {
   margin-top: 0;
@@ -164,6 +168,18 @@ body {
 }
 
 /*Section studio*/
+.section-title {
+  visibility: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 
 .section-title-studio {
   margin-top: 0;
@@ -179,6 +195,9 @@ body {
 /*Section portfolio*/
 
 .section-title-portfolio {
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin: 0;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -301,6 +320,7 @@ body {
 .our-works-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0;
 }
 .our-works-list .item {
   width: calc((100% - 60px) / 3);
@@ -329,12 +349,20 @@ body {
 }
 
 .title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.title-portfolio {
+  visibility: hidden;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 /*text portfolio*/
 .primary-text {
+  padding-bottom: 20px;
+  margin: 0;
   color: var(--paragraph-text-color);
 
   font-size: 16px;
